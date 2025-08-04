@@ -1,0 +1,9 @@
+name: Test Local Runner
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: [self-hosted, Windows]
+    steps:
+      - run: echo "🎉 Hello from local runner on Windows!"
